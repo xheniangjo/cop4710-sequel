@@ -1,0 +1,8 @@
+Pseudocode to see if a table exists in database
+
+FOR i < databasesize
+	IF tablename == database[i]
+		return 1;
+	END IF
+END FOR
+return 0;
